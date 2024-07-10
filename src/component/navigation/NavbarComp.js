@@ -25,8 +25,8 @@ export default class NavbarComp extends Component {
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to={"/"}> Home </Nav.Link>
                         <Nav.Link as={Link} to={"/about"}>About</Nav.Link>
-                        <Nav.Link as={Link} to={"/TodoListAll"}>TodoPage</Nav.Link>
-                        <Nav.Link as={Link} to={"/SearchPage"}>SearchPage</Nav.Link>
+                        <Nav.Link as={Link} to={"/TodoListAll"}>Saved Todos</Nav.Link>
+                        <Nav.Link as={Link} to={"/SearchPage"}>Search Todos</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
